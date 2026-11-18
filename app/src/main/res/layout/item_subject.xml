@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    app:cardBackgroundColor="#17112B"
+    app:cardCornerRadius="22dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+        <!-- Top Row -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Subject Icon -->
+
+            <TextView
+                android:id="@+id/tvSubjectIcon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#2A1B45"
+                android:gravity="center"
+                android:text="📚"
+                android:textSize="23sp" />
+
+            <!-- Subject Information -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvSubjectName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Machine Learning"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvExamDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Exam: 25 Sep 2026"
+                    android:textColor="#AAA2C4"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <!-- Target Score -->
+
+            <TextView
+                android:id="@+id/tvTarget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#30204D"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:text="90%"
+                android:textColor="#E36BFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <!-- Progress Label -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Study Progress"
+                android:textColor="#AAA2C4"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0% completed"
+                android:textColor="#E36BFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <!-- Progress Bar -->
+
+        <ProgressBar
+            android:id="@+id/progressSubject"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginTop="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressTint="#D62CFF" />
+
+
+        <!-- Buttons -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnUpdateProgress"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_weight="1"
+                android:text="UPDATE PROGRESS"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:backgroundTint="#7B35D4" />
+
+            <Button
+                android:id="@+id/btnDeleteSubject"
+                android:layout_width="0dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:text="DELETE"
+                android:textColor="#FFB4C0"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:backgroundTint="#35202F" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

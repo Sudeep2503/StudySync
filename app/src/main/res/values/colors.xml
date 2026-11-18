@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================= -->
+    <!-- STUDYSYNC DARK THEME -->
+    <!-- ========================= -->
+
+    <!-- Main backgrounds -->
+    <color name="background">#090615</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_dark">#120C24</color>
+    <color name="card">#17102D</color>
+    <color name="card_dark">#1D1438</color>
+
+    <!-- Primary neon colors -->
+    <color name="primary">#C832FF</color>
+    <color name="primary_dark">#8B24D6</color>
+    <color name="primary_light">#E56BFF</color>
+
+    <!-- Pink / magenta -->
+    <color name="accent_pink">#FF2BC2</color>
+    <color name="neon_pink">#FF36D1</color>
+    <color name="magenta">#D946EF</color>
+
+    <!-- Purple -->
+    <color name="purple">#8B3DFF</color>
+    <color name="neon_purple">#A855F7</color>
+    <color name="purple_dark">#3A185F</color>
+
+    <!-- Blue -->
+    <color name="blue">#5865F2</color>
+    <color name="neon_blue">#7C6CFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B9ADD2</color>
+    <color name="text_muted">#817596</color>
+
+    <!-- Status -->
+    <color name="success">#43E6A0</color>
+    <color name="warning">#FFB84D</color>
+    <color name="error">#FF5C7A</color>
+    <color name="danger">#FF5C7A</color>
+    <!-- UI -->
+    <color name="divider">#302348</color>
+    <color name="border">#49316B</color>
+    <color name="input_background">#120B24</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+
+</resources>
